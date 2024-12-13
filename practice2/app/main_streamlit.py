@@ -1,6 +1,6 @@
 import streamlit as st
-from app.services.video_converter import video_converter
-from app.services.encoding_ladder import encoding_ladder
+from services.video_converter import video_converter
+from services.encoding_ladder import encoding_ladder
 import os
 import shutil
 
